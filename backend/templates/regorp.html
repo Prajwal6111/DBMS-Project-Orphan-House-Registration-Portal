@@ -1,0 +1,124 @@
+{% extends "navbar.html" %} {% block title %} Register An Orphan {% endblock title %}
+{% block body %}
+<div  style="background-image: url(static/assets/img/pexels-liza-summer-6348127.jpg)">
+<div class="container mt-4">
+  <div style="font-family: Bahnschrift SemiBold;font-size:65px;color:rgb(38, 39, 41)" align="center">ORPHAN REGISTRATION</div>
+  <br />
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        {% include "message.html" %}
+        <h4 class="text-center text-success">Orphan House</h4>
+        <div class="card-body bg-light">
+          <form action="/regorp" method="post">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control mt-2"
+                name="orp"
+                value="{{current_user.orp}}"
+                readonly
+                required
+              />
+            </div>
+            
+
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control mt-2"
+                name="Ocode"
+                placeholder="Enter Orphan House Code"
+                required
+              />
+            </div>
+        
+
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control mt-2"
+                name="oname"
+                placeholder="Orphan Name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control mt-2"
+                  name="age"
+                  placeholder="Enter Orphan Age(Approx)"
+                  required
+                />
+            </div>
+
+            <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control mt-2"
+                  name="gender"
+                  placeholder="Enter Orphan Gender(M/F)"
+                  required
+                />
+            </div>
+
+            
+
+
+
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control mt-2"
+                name="uaddress"
+                placeholder="Enter Your Address"
+                required
+              />
+            </div>
+
+            <br />
+            <button class="btn btn-info" type="submit">Register Orphan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-8">
+    
+  <table class="table table-dark">
+  <thead>
+  <h3 class="text-center text-white bg-dark">Orphan House Near By</h3>
+    <tr>
+      
+      <th scope="col">OrphanHouse Code</th>
+      <th scope="col">Orphan House Name</th>
+      <th scope="col">Orphan House District</th>
+      <th scope="col">Orphan House State</th>
+      <th scope="col">Orphan House Area Pincode</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for post in query %}
+   <tr>
+      <td>{{post.Ocode}}</td>
+      <td>{{post.ohname}}</td>
+      <td>{{post.ohdistrict}}</td>
+      <td>{{post.ohstate}}</td>
+      <td>{{post.ohpin}}</td>
+    </tr>
+   
+  {% endfor %}
+   
+  </tbody>
+</table>
+    
+    </div>
+  </div>
+</br>
+</div>
+
+
+{% endblock body %}

@@ -1,0 +1,57 @@
+{% extends 'withoutfooter.html' %} {% block title %} Orphan House Registration {% endblock title
+    %} {% block form %}
+  </br></br></br></br></br></br>
+    <h2 style="text-align:center; color:rgb(101, 59, 59)">Orphan House Registration</h2>
+    <div class="row">
+      <div class="col-md-4">
+      </br></br></br></br></br></br></br></br></br></br>
+      <div style="position:absolute;right:-600px;top:450px;" class="container"> 
+        <a href="/" class="btn btn-danger">Logout</a>
+        </div>
+      </div>
+    
+      <div class="col-md-4">
+        <form action="/addOrphanUser" method="post">
+            {% include "message.html" %}
+            <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control mt-2"
+                  placeholder="Enter Orphan Code"
+                  name="Ocode"
+                  required
+                />
+            </div>
+
+          <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control mt-2"
+                  placeholder="Enter the EMAIL ID"
+                  name="email"
+                  required
+                />
+          </div>
+          
+          <div class="form-group">
+                <input
+                  type="password"
+                  class="form-control mt-2"
+                  placeholder="Enter Password"
+                  name="password"
+                  required
+                />
+          </div>
+
+          <br>
+          <button type="submit" class="btn btn-info">Add</button>
+        </form>
+        <br></br></br></br></br></br></br>
+      </div>
+    
+      <div class="col-md-4"></div>
+    </div>
+  </div>
+    
+    {% endblock form %}
+    

@@ -1,0 +1,103 @@
+{% extends "navbar.html" %}
+{% block title %}
+Add Orphan House Information
+{% endblock title %}
+{% block body %}
+<div  style="background-image: url(static/assets/img/pexels-mathias-reding-12776973.jpg)">
+<div class="container mt-4">
+  <div class="display-4 text-center text-info">Add Orphan House Data</div>
+  <br>
+  <div class="row">
+
+    <div class="col-md-4">
+
+      <div class="card">
+        {% include "message.html" %}
+        <h4 class="text-center text-success">Orphan House</h4>
+        <div class="card-body bg-light">
+
+          <form action="/addorphanhouseinfo" method="post">
+
+            <div class="form-group">
+              <input type="text" class="form-control mt-2" name="Ocode"
+                value="{{current_user.Ocode}}"
+                placeholder="Enter the OrphanHouse Code" required>
+            </div>
+
+            <div class="form-group">
+              <input type="text" class="form-control mt-2" name="ohname"
+                placeholder="Enter OrphanHouse Name" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control mt-2" name="ohdistrict"
+                  placeholder="Enter OrphanHouse District" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control mt-2" name="ohstate"
+                  placeholder="Enter OrphanHouse State" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control mt-2" name="ohpin"
+                  placeholder="Enter OrphanHouse Area Pincode" required>
+            </div>
+
+            
+            <br>
+            <button class="btn btn-info" type="submit">Add</button>
+
+
+
+
+          </form>
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <div class="col-md-8">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <style>
+            .col-md-8{
+              position:absolute;
+              left:25%;
+            }
+          </style>
+          <div class="col-md-8">
+            <div class="card-body bg-dark">
+              <h5 class="card-title text-center bg-light ">Orphan House Data</h5>
+              <div class="card bg-dark" style="width:28rem;">
+                <ul class="list-group list-group-flush ">
+                  <li class="list-group-item">Orphan House Code : <b>{{postsdata.Ocode}}</b></li>
+                  <li class="list-group-item">Orphan House Name : <b>{{postsdata.ohname}}</b></li>
+                  <li class="list-group-item">Orphan House District: <b>{{postsdata.ohdistrict}}</b></li>
+                  <li class="list-group-item">Orphan House State: <b>{{postsdata.ohstate}}</b></li>
+                  <li class="list-group-item">Orphan House Area Pin: <b>{{postsdata.ohpin}}</b></li>
+                  </li>
+                  <li class="list-group-item"><a href="/hedit/{{postsdata.id}}"><i
+                        class="fa-solid fa-pen-to-square"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                      href="/hdelete/{{postsdata.id}}"><i class="fa-solid fa-trash"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</br>
+</br>
+</br>
+</br>
+</div>
+</div>
+{% endblock body %}
