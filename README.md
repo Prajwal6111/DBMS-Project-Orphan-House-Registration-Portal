@@ -10,3 +10,7 @@ after the installation
                   2. Run through the VS code (i suggest)
                   Make sure your XAMPP server is on 
 for any kind of doubts please drop me a mail "prajwalmh6111@gmail.com " I WOULD BE HAPPY TO HELP YOU.
+
+the are few snapshots 
+
+![Screenshot (49)](https://user-images.githubusercontent.com/120583820/214114636-8b316894-5509-4df0-ae0e-d7e56bcd44a3.png)
