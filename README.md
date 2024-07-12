@@ -1,11 +1,10 @@
 # DBMS-Project
 # DBMS-Project
 Well if you are finally here to search, one of the simplest project using Django with Python, You are at the right place
-<br> Our project actually runs on XAMPP server
+<br> Our project actually runs on XAMPP ( Its just your local server where the website runs )
 And for the installation, Please do follow the below steps -
 * Download XAMPP from their official website (https://www.apachefriends.org/download.html)
 * Setup your XAMPP server 
-* XAMMPP - Its just your local server where the website runs
 # After the installation 
 *  Unzip our project 
 * Run through the VS code (I suggest)
