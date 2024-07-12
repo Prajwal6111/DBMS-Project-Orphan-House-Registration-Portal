@@ -5,12 +5,12 @@ Well if you are finally here to search, one of the simplest project using Django
 And for the installation, Please do follow the below steps -
 * Download XAMPP from their official website (https://www.apachefriends.org/download.html)
 * Setup your XAMPP server 
-* If anyone here don't what it does, its just your local server where the website runs
+* XAMMPP - Its just your local server where the website runs
 # After the installation 
 *  Unzip our project 
 * Run through the VS code (I suggest)
 * Make sure your XAMPP server is up and running 
-<br> Happy building!
+<br> Happy building! Please don't get Panic if you get stuck, Everyone learns evrything when they are stuck. So wish for it.
 <br> For any kind of doubts please drop me a mail, "prajwalmh6111@gmail.com "I WOULD BE HAPPY TO HELP".
 
 These are the following Snapshots: 
