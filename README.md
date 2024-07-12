@@ -10,7 +10,7 @@ And for the installation, Please do follow the below steps -
 *  Unzip our project 
 * Run through the VS code (I suggest)
 * Make sure your XAMPP server is up and running 
-<br> And last but not the least please "pip install requirements.txt file
+<br> Happy building!
 <br> For any kind of doubts please drop me a mail, "prajwalmh6111@gmail.com "I WOULD BE HAPPY TO HELP".
 
 These are the following Snapshots: 
