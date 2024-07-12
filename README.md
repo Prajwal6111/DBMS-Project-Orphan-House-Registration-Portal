@@ -11,7 +11,7 @@ Well if you are finally here to search, one of the simplest project using Django
 * Run through the VS code (I suggest)
 * Make sure your XAMPP server is up and running
   
-<br> Happy building! Please don't get Panic if you get stuck anywhere, Everyone learns evrything when their mind goes blank. So wish for it.
+<br> Happy building! Please don't get Panic if you get stuck anywhere, Everyone learns everything when their mind goes blank. So wish for it.
 
 <br> For any kind of doubts please drop me a mail, "prajwalmh6111@gmail.com "I WOULD BE HAPPY TO HELP".
 
