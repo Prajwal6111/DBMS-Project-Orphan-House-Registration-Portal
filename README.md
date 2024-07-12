@@ -10,7 +10,7 @@ And for the installation follow these -
 *  Unzip our project 
 * Run through the VS code (I suggest)
 * Make sure your XAMPP server is up and running 
-For any kind of doubts please drop me a mail, "prajwalmh6111@gmail.com " I WOULD BE HAPPY TO HELP YOU.
+<br> For any kind of doubts please drop me a mail, "prajwalmh6111@gmail.com " I WOULD BE HAPPY TO HELP YOU.
 
 These are the following Snapshots: 
 ![Screenshot (48)](https://user-images.githubusercontent.com/120583820/214115125-b7788e90-eb56-43df-a3a3-c3b0fd831e20.png)
