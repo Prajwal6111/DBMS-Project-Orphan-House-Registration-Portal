@@ -10,7 +10,8 @@ And for the installation, Please do follow the below steps -
 *  Unzip our project 
 * Run through the VS code (I suggest)
 * Make sure your XAMPP server is up and running 
-<br> Happy building! Please don't get Panic if you get stuck, Everyone learns evrything when they are stuck. So wish for it.
+<br> Happy building! Please don't get Panic if you get stuck anywhere, Everyone learns evrything when their mind goes blank. So wish for it.
+
 <br> For any kind of doubts please drop me a mail, "prajwalmh6111@gmail.com "I WOULD BE HAPPY TO HELP".
 
 These are the following Snapshots: 
