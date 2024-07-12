@@ -3,16 +3,16 @@
 Well if you are finally here to search one of the simplest project using Django with python ... you are in the right place 
 Our project actuallly runs on XAMPP server
 And for the installation follow these -
-                  1. Download XAMPP from their official website (https://www.apachefriends.org/download.html)
-                  2. Setup your XAMPP server 
-                  3. To Newbies who dont know what is it , its just your local server of your own inorder to work with the dynamic changes in your project
-after the installation 
-                  1. unzip our project 
-                  2. Run through the VS code (i suggest)
-                  Make sure your XAMPP server is on 
-for any kind of doubts please drop me a mail "prajwalmh6111@gmail.com " I WOULD BE HAPPY TO HELP YOU.
+* Download XAMPP from their official website (https://www.apachefriends.org/download.html)
+* Setup your XAMPP server 
+* If anyone here don't what it does, its just your local server where the website runs
+# After the installation 
+*  Unzip our project 
+* Run through the VS code (I suggest)
+* Make sure your XAMPP server is up and running 
+For any kind of doubts please drop me a mail "prajwalmh6111@gmail.com " I WOULD BE HAPPY TO HELP YOU.
 
-the are few snapshots 
+These are the following Snapshots: 
 ![Screenshot (48)](https://user-images.githubusercontent.com/120583820/214115125-b7788e90-eb56-43df-a3a3-c3b0fd831e20.png)
 
 ![Screenshot (49)](https://user-images.githubusercontent.com/120583820/214114636-8b316894-5509-4df0-ae0e-d7e56bcd44a3.png) 
